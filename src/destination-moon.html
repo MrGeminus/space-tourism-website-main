@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.min.css">
+
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body>
+  <div class="wrapper wrapper--bg-destination">
+    <nav class="nav">
+      <a href="index.html"><img src="assets/shared/logo.svg" alt="Logo"></a>
+      <button class="btn" aria-label="Click to open the main menu"></button>
+      <ul class="nav__list">
+        <li class="nav__list-item nav__list-item--mr"><a class="nav__list-link" href="index.html"><span
+              class="nav__list-num">00</span> Home</a></li>
+        <li class="nav__list-item nav__list-item--mr nav__list-item--active"><a class="nav__list-link"
+            href="destination-moon.html"><span class="nav__list-num">01</span>
+            Destination</a></li>
+        <li class="nav__list-item nav__list-item--mr"><a class="nav__list-link" href="crew-commander.html"><span
+              class="nav__list-num">02</span> Crew</a></li>
+        <li class="nav__list-item"><a class="nav__list-link" href="technology-vehicle.html"><span
+              class="nav__list-num">03</span>
+            Technology</a></li>
+      </ul>
+    </nav>
+    <main class="main main--destination">
+      <h1 class="main__heading main__heading--small"><span class="main__heading-num">01</span> Pick your destination
+      </h1>
+      <figure class="main__figure">
+        <img class="main__image" src="assets/destination/image-moon.png" alt="Moon">
+      </figure>
+      <div class="main__tab">
+        <button type="button" class="main__tab-button main__tab-button--active">Moon</button>
+        <button type="button" class="main__tab-button">Mars</button>
+        <button type="button" class="main__tab-button">Europa</button>
+        <button type="button" class="main__tab-button">Titan</button>
+      </div>
+      <h2 class="main__subheading">Moon</h2>
+
+      <p class="main__paragraph main__paragraph--padding-bottom">See our planet as you’ve never seen it before. A
+        perfect relaxing trip away to help
+        regain perspective and come back refreshed. While you’re there, take in some history
+        by visiting the Luna 2 and Apollo 11 landing sites.</p>
+      <dl class="main__stats">
+        <div class="main__stats-column main__stats-column--margin-bottom">
+          <dt>Avg. distance</dt>
+          <dd class="main__stats-description">384,400 km</dd>
+        </div>
+        <div>
+          <dt>Est. travel time</dt>
+          <dd class="main__stats-description">3 days</dd>
+        </div>
+      </dl>
+    </main>
+    <footer class="footer">
+      <p class="footer__attribution"><span>Challenge by <a class="footer__attribution-link"
+            href="https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3"
+            target="_blank">Frontend
+            Mentor</a>.</span>
+        <span>Coded by <a class="footer__attribution-link" href="https://github.com/MrGeminus" target="_blank">Uros
+            Tomic</a>.</span>
+      </p>
+    </footer>
+  </div>
+  <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
